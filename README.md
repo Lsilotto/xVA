@@ -16,7 +16,7 @@ The relevant function to do this task are stored in:
 
 The calibrated parameters (both on ATM and cube) are already stored in the folder input\CalibratedParameters and can be loaded directly in the following main. 
 
-b) Simulate the Mark-to-Future of a single instrument (Swap or Swaption) or a portfolio (of Swaps and Swaptions) and the related exposure in the presence of collateral, i.e. Variation Margin (VM) and Initial Margin (IM). Finally, the code calculate CVA, DVA, FVA and MVA for the collateralization hypotheses. In particular, the script is named main and it is divided into different sections that perform the following tasks:
+b) Simulate the Mark-to-Future of a single instrument (Swap or Swaption) or a portfolio (of Swaps and Swaptions) and the related exposure in the presence of collateral, i.e. Variation Margin (VM) and Initial Margin (IM). Finally, the code calculates CVA, DVA, FVA and MVA for the collateralization hypotheses. In particular, the script is named main and it is divided into different sections that perform the following tasks:
   1) Import market data (rate curves, volatility and related shifts, etc.) from the Excel files in the folder input.
   2) Definition of calculation parameters (e.g. number of MC scenarios, grid granularity, etc.) and loading of calibrated G2++ parameters (please refer to point a.). In this section you can also choose whether to simulate also VM and IM. You can set the flags to 0 to save computational time.
   3) Import of instrument details from the Excel file in the folder input. This file is currently built to read IRS and Swaption records.
