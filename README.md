@@ -1,5 +1,5 @@
 # Code guide 
-Below we report a short guide of the Matlab code used for computing the results reported in the article "XVA Modelling: Validation, Performance and Model Risk Management". Please find further comments directly in the scripts.
+Below we report a short guide of the Matlab code used for computing the results reported in the article "XVA Modelling: Validation, Performance and Model Risk Management" (https://link.springer.com/article/10.1007/s10479-023-05323-4). Please find further comments directly in the scripts.
 We suggest to read sec. 2 of the article XVA Modelling: Validation, Performance and Model Risk Management in order to understand the logic of the codes.
 
 The library allows to:
