@@ -6,11 +6,12 @@ The library allows to:
 a) Calibrate the multicurve G2++ model in two variants: with time dependent volatility and with flat volatility. Furthermore, it is possible to calibrate G2++ parameters on ATM swaptions only or on the full swaptions cube. In particular:
   - main_calibration: G2++ parameters calibrated on ATM swaptions;
   - main_cubeCalibration: G2++ parameters calibrated on swaptions cube.
+
 The relevant function to do this task are stored in: 
-    - Calibration_Engine\HW2F_Gamma_Calibration --> G2++ model with time dependent volatility;
-    - Calibration_Engine\HW2F_Calibration --> G2++ model with flat volatility;
-    - Pricing_Engine\HW2F_Gamma_Pricing --> G2++ model with time dependent volatility;
-    - Pricing_Engine\HW2F_Pricing --> G2++ model with flat volatility;
+  - Calibration_Engine\HW2F_Gamma_Calibration --> G2++ model with time dependent volatility;
+  - Calibration_Engine\HW2F_Calibration --> G2++ model with flat volatility;
+  - Pricing_Engine\HW2F_Gamma_Pricing --> G2++ model with time dependent volatility;
+  - Pricing_Engine\HW2F_Pricing --> G2++ model with flat volatility;
 The calibrated parameters (both on ATM and cube) are already stored in the folder input\CalibratedParameters and can be loaded directly in the following main. 
 
 b) Simulate the Mark-to-Future of a single instrument (Swap or Swaption) or a portfolio (of Swaps and Swaptions) and the related exposure in the presence of collateral, i.e. Variation Margin (VM) and Initial Margin (IM). Finally, the code calculate CVA, DVA, FVA and MVA for the collateralization hypotheses. In particular, the script is named main and it is divided into different sections that perform the following tasks:
