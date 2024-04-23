@@ -3,6 +3,7 @@ Below we report a short guide of the Matlab code used for computing the results 
 We suggest to read sec. 2 of the article XVA Modelling: Validation, Performance and Model Risk Management in order to understand the logic of the codes.
 
 The library allows to:
+
 a) Calibrate the multicurve G2++ model in two variants: with time dependent volatility and with flat volatility. Furthermore, it is possible to calibrate G2++ parameters on ATM swaptions only or on the full swaptions cube. In particular:
   - main_calibration: G2++ parameters calibrated on ATM swaptions;
   - main_cubeCalibration: G2++ parameters calibrated on swaptions cube.
